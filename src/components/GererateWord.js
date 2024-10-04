@@ -8,7 +8,7 @@ export async function generateWords(length) {
   
       if (words.length > 0) {
         const randomWord = words[Math.floor(Math.random() * words.length)].word;
-        console.log('Random 5-letter word:', randomWord);
+        console.log('Random word:', randomWord);
         return randomWord;
       } else {
         console.log('No words found.');
